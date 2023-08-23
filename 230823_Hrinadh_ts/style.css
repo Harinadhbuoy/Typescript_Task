@@ -1,0 +1,80 @@
+.main-container {
+    margin: 5% 10%;
+}
+
+.my-div {
+    background-color: rgb(248, 248, 197);
+    padding: 5%;
+}
+
+.my-div h2 {
+    text-align: center;
+}
+
+.textbox {
+    width: 90%;
+    padding: .7rem 1rem;
+    border: none;
+    border-radius: .2rem;
+    margin-top: .5rem;
+}
+
+.addbtn {
+    padding: .7rem 1rem;
+    border: none;
+    background-color: rgb(1, 116, 1);
+    color: white;
+    border-radius: .2rem;
+}
+
+.addbtn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.table {
+    background-color: #eee;
+    width: 100%;
+    margin: 1% 0%;
+}
+
+tr {
+    margin-top: .5rem;
+}
+
+.table th,
+td {
+    text-align: left;
+    padding: .5rem;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(105, 104, 104);
+}
+
+.head {
+    width: 8rem;
+    padding: .5rem;
+}
+
+.checkbtn {
+    margin: .5rem;
+}
+
+/* .select
+{
+    border: none;
+    padding:2% 2%;
+} */
+
+.selectlist {
+    border: none;
+    padding: .5rem 1rem;
+    background-color: white;
+    color: gray;
+    font-size: medium;
+}
+
+.cb {
+    transform: scale(2);
+}

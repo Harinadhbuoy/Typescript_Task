@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="my-div">
+            <h2>LIST OF TASKS</h2>
+            <input type="text" id="searchInput" placeholder="Search Tasks" class="textbox">
+            <input id="taskInput" type="text" placeholder="enter task" class="textbox">
+            <button id="addButton" class="addbtn">ADD</button>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>check</th>
+                    <th class="head">Task Name</th>
+                    <th>Status</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="taskList">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
